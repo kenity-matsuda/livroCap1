@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+const preco = Number (prompt("preço do produto R$") )        
+const descontoVista = (preco*0.10)
+const valorVista = (preco-descontoVista)
+const parcelado = (preco/3)
+alert (`o produto vista ficara R$:  ${valorVista.tofixed(2)}
+\nporém parcelado em 3 vezes ficará R$: ${parcelado.tofixed(2)}`)
+
+                
+    </script>
+</body>
+</html>
